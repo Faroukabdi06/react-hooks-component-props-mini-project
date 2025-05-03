@@ -10,7 +10,9 @@ function ArticleList({posts}){
                 key={post.id}
                 title={post.title}
                 date={post.date}
-                preview={post.preview}/>
+                preview={post.preview}
+                minutes={post.minutes}
+                />
 
              ))}
         </main>
